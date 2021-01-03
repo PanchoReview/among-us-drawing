@@ -1,0 +1,177 @@
+* {
+    background-color: rgb(39, 39, 39);
+    font-family: 'Space Mono', monospace;    
+}
+
+.message {
+    color: white;
+    text-align: center;
+}
+
+.player-type {
+    color: #0ff;
+    font-size: 150px;    
+}
+
+.alert {
+    font-size: 30px;
+}
+
+.impostor-count {
+    color: red;
+}
+
+.glare {
+    width: 80%;
+    height: 40%;
+    box-shadow: 120px 300px 100px 30px #0ff;
+    z-index: -1;
+}
+
+.astronaut-container {
+    height: 42%;
+    width: 100%;
+    position: absolute;
+    background-color: transparent;
+    top: 30%;
+}
+
+.astronaut {
+    position: absolute;        
+    background-color: transparent;
+}
+
+.astronaut.red {
+    top: 40%;    
+    left: 5%;
+    height: 50%;
+    width: 125px;
+    color: red;
+}
+
+.astronaut.pink {
+    top: 40%;    
+    left: 15%;
+    height: 75%;
+    width: 200px;    
+    color: rgb(196, 132, 255);
+}
+
+.astronaut.green {
+    top: 40%;    
+    left: 30%;
+    height: 90%;
+    width: 225px;
+    color: green;
+}
+
+.astronaut.yellow {
+    top: 40%;    
+    left: 46%;
+    height: 100%;
+    width: 250px;
+    color: yellow;
+}
+
+.astronaut.blue {
+    top: 40%;    
+    left: 70%;
+    height: 85%;
+    width: 212px;
+    transform: rotateY(180deg);
+    color: blue;
+}
+
+.astronaut.gray {
+    top: 40%;    
+    left: 85%;
+    height: 54%;
+    width: 150px;
+    transform: rotateY(180deg);
+    color: gray;
+}
+
+.astronaut-body {
+    position: absolute;
+    height: 80%;
+    width: 83%;
+    background-color: currentColor;
+    border: black 20px solid;
+    border-bottom: none;
+    border-radius: 30% 50% 0 0;
+    z-index: 1;
+    left: 30%;    
+}
+
+.astronaut-body .shadow {
+    position: absolute;
+    height: 80%;
+    width: 80%;
+    background-color: currentColor;
+    filter: brightness(60%);        
+    border-radius: 30% 50% 30% 26%;         
+    left: 15%;
+}
+
+.backpack {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+    height: 42%;
+    width: 13%;
+    background-color: currentColor;
+    border: black 20px solid;
+    border-radius: 30% 0 0 30%;
+}
+
+.leg {
+    position: absolute;
+    height: 15%;
+    width: 26%;
+    top: 84%;
+    background-color: currentColor;
+    border: black 20px solid;
+    border-top: none;
+    border-radius: 0 0 35% 35%;
+    z-index: 1;
+}
+
+.left.leg {    
+    left: 30%;
+}
+
+.right.leg {
+    left: 87%;
+}
+
+.visor {
+    position: absolute;
+    z-index: 2;
+    width: 60%;
+    height: 27%;
+    background-color: rgb(2, 58, 58);
+    border-radius: 25% 50% 35% 25%;
+    left: 66%;
+    top: 12%;
+    border: black 20px solid;
+}
+
+.visor-reflection {    
+    position: absolute;
+    width: 85%;
+    height: 60%;
+    background-color: rgb(71, 255, 255);        
+    border-radius: 25% 50% 35% 25%;
+    left: 15%;
+}
+
+.visor-reflection-inner {
+    position: absolute;
+    width: 60%;
+    height: 30%;
+    background-color: white;
+    border-radius: 35% 50% 45% 25%;
+    left: 30%;
+    top: 15%;
+    transform: rotate(15deg);
+}
